@@ -1,0 +1,6 @@
+sampleruns = pd.read_csv('data/ltee_sampleruns.csv')
+mutations = pd.read_csv('data/ltee_mutations.csv')
+print("Columns of mutations file: ", mutations.columns)
+print("Size of mutations file: ", mutations.size)
+print("Size of sampleruns: ", sampleruns.size)
+mutations.head()
